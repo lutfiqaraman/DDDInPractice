@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DDDInPractice.Logic
+﻿namespace DDDInPractice.Logic
 {
-    public sealed class SnackMachine
+    public sealed class SnackMachine : Entity
     {
         public Money MoneyInside { get; private set; }
         public Money MoneyInTransaction { get; private set; }
