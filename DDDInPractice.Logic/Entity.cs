@@ -18,7 +18,6 @@ namespace DDDInPractice.Logic
 
             return Id == other.Id;
         }
-
         public override int GetHashCode()
         {
             return base.GetHashCode();
